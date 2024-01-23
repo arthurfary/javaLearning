@@ -22,6 +22,14 @@ public class Main {
                 + gato.move()
         );
 
+        // usando função default
+        // using default function
+        System.out.println(
+                "Tanto o " + cachorro.getName() +
+                " quanto o " + gato.getName() +
+                " podem respirar com .breathe(): " + cachorro.breathe() // gato.breathe()
+        );
+
 
     }
 }
